@@ -468,3 +468,79 @@ a:hover {
         height: 260px;
     }
 }
+
+/* v4 hierarchy refinements */
+.advising-card {
+    grid-column: span 2;
+}
+
+.advising-card div:last-child,
+.advising-line {
+    line-height: 1.62;
+}
+
+.phd-focus {
+    align-items: flex-start;
+}
+
+.phd-focus .advising-line {
+    margin-top: 0.45rem;
+    color: var(--site-muted);
+}
+
+.workbench-intro-compact {
+    grid-template-columns: minmax(0, 1.55fr) minmax(250px, 0.7fr);
+}
+
+.compact-snapshot {
+    padding: 1.05rem 1.1rem;
+}
+
+.compact-snapshot .snapshot-number {
+    font-size: 1.18rem;
+}
+
+.capability-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+}
+
+.capability-strip span {
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 999px;
+    padding: 0.42rem 0.72rem;
+    color: rgba(255, 255, 255, 0.88);
+    background: rgba(255, 255, 255, 0.065);
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.visual-mosaic-compact {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.visual-mosaic-compact .mosaic-card img {
+    height: 185px;
+}
+
+.visual-mosaic-compact .mosaic-card figcaption {
+    min-height: 4.45rem;
+    font-size: 0.88rem;
+    padding: 0.78rem 0.88rem;
+}
+
+@media (max-width: 991px) {
+    .advising-card {
+        grid-column: auto;
+    }
+
+    .workbench-intro-compact,
+    .visual-mosaic-compact {
+        grid-template-columns: 1fr;
+    }
+
+    .visual-mosaic-compact .mosaic-card img {
+        height: 230px;
+    }
+}

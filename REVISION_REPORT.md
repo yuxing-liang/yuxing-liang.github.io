@@ -41,3 +41,12 @@ Upload the contents of the package to the root of the GitHub Pages repository. I
 - Added a concise description of the independent financial-market analytics project, framed as analytical infrastructure rather than investment advice.
 - Added selected visual examples from the uploaded market-analysis visual files: IV surface, GEX/moneyness heatmap, wall/level structure, and intraday tape.
 - Kept the existing main color `#912338` unchanged.
+
+## v4 update: positioning, advising hierarchy, and lighter workbench
+
+- Replaced the equal supervisor-card presentation with a more accurate and diplomatic advising sentence: Yuxing is advised by Prof. Szilvia Pápai, and his research has also benefited from external supervision and guidance from Prof. Xintong Han.
+- Rewrote the homepage profile to position Yuxing as a matching theory / market design researcher whose work is theory-first but connected to empirical and computational methods.
+- Kept the dark Analytical Workbench design, but made the section cleaner and less heavy by shortening the text, removing the extra three-card explanation block, and reducing the visual mosaic to three compact examples.
+- Changed the Workbench nav label to “Methods” while keeping the page title “Analytical Workbench.”
+- Simplified the Background section to emphasize only the Ph.D. candidate status at Concordia University, with the full education history left to the CV.
+- Added a subtle line about research-oriented opportunities using economic modeling, empirical analysis, and computational methods, without changing the main academic/postdoctoral job-market emphasis.

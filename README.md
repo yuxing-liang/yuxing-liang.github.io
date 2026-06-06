@@ -39,3 +39,11 @@ Then wait a few minutes and hard refresh the site with `Ctrl + F5`.
 ## v3 update
 
 Added the **Analytical Workbench** section with brief computational/data-processing profile, selected quantitative-market visual examples, and concise notes on the independent analytics project.
+
+## v4 update
+
+- Rebalanced advising language: Prof. Szilvia Pápai is identified as the main advisor, while Prof. Xintong Han is acknowledged as external supervision and guidance.
+- Strengthened the homepage positioning as a matching theory / market design profile: theory-first, with empirical and computational capabilities.
+- Kept the dark Analytical Workbench style but made it lighter and cleaner, with fewer blocks and shorter copy.
+- Reduced visible education history on the page to the Ph.D. candidate profile; full education remains in the CV.
+- Added a subtle research-oriented opportunities sentence without shifting the site away from the academic job-market identity.
