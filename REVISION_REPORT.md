@@ -1,44 +1,43 @@
 # Revision Report
 
-## Main revision goal
+## Requested update
 
-The site was revised from a general academic homepage into a more job-market-oriented economics homepage while preserving the original burgundy main color.
+The user requested cosmetic and content revisions to the job-market website: replace the sharp-looking font, keep the main color unchanged, remove "education markets" keyword language, restore supervisor names and links, and add presentation slides for SSCW 2026 Tokyo to the job-market paper section.
 
-## Structural changes
+## Changes made
 
-1. Added a prominent job-market banner near the top of the homepage.
-2. Added a dedicated `Job Market` navigation section.
-3. Added a polished `Job Market Paper` section with title, abstract, fields, and postdoctoral-position language.
-4. Reorganized the page into:
-   - About
-   - Job Market
-   - Research
-   - Teaching
-   - Education
-   - Contact
-5. Added a stronger contact block and repeated the email in visible places.
-6. Separated custom design work into `css/site-polish.css` so the original Bootstrap template remains intact.
+1. **Typography and visual polish**
+   - Replaced the previous Source Sans / Source Serif pairing with a softer academic pairing: Nunito Sans for body text and Literata for headings.
+   - Preserved the main burgundy color: `#912338`.
+   - Softened card shadows, rounded buttons/cards, and improved spacing.
 
-## Writing changes
+2. **Job-market content**
+   - Kept the job-market banner visible near the top.
+   - Rewrote the job-market abstract to emphasize the distinction between strategy-proofness, deviations from truth, decision relevance, and allocatively costless deviations.
+   - Added a direct "Request Draft" email button.
 
-- Rewrote the biography in a more academic style.
-- Clarified primary fields and research interests.
-- Added language indicating that Yuxing Liang is on the 2026–2027 academic job market.
-- Added language that he is open to postdoctoral positions.
-- Added an abstract for the job market paper based on the decision-relevance / strategy-proof matching project.
-- Smoothed the descriptions of working papers and teaching experience.
+3. **Supervisor links**
+   - Restored supervisors in the About section:
+     - Prof. Szilvia Pápai
+     - Prof. Xintong Han
 
-## Design changes
+4. **Slides**
+   - Added the uploaded SSCW 2026 slides to `assets/docs/sscw-2026-liang-slides.pdf`.
+   - Linked the slides from the Job Market Paper card and Selected Presentations section.
 
-- Updated fonts to `Source Sans 3` for body text and `Source Serif 4` for headings.
-- Added cards for fields, research interests, contact, papers, and teaching.
-- Added a soft academic layout with more whitespace, border accents, and a job-market callout.
-- Kept the main color unchanged: `#912338`.
+5. **Keyword cleanup**
+   - Removed the phrase "education markets" from the field/keyword language.
+   - Replaced it with more precise language: school choice, college admissions, major assignment, assignment mechanisms, and applied microeconomics.
 
-## Remaining items for the user to update later
+## Deployment note
 
-1. Replace `CV.pdf` with the newest job-market CV.
-2. Add the final Job Market Paper PDF once ready.
-3. Confirm the final official title of the Job Market Paper.
-4. Add advisors, committee members, or references if desired.
-5. Add a photo update if a more professional headshot is available.
+Upload the contents of the package to the root of the GitHub Pages repository. If the site appears unstyled, the CSS folder is not at the root or the old `index.html` is still being served.
+
+
+## v3 update: Analytical Workbench
+
+- Added a new sidebar section, **Workbench**, with the title **Analytical Workbench**.
+- Added brief language on data processing, coding, econometric/statistical workflows, simulations, and visual reporting.
+- Added a concise description of the independent financial-market analytics project, framed as analytical infrastructure rather than investment advice.
+- Added selected visual examples from the uploaded market-analysis visual files: IV surface, GEX/moneyness heatmap, wall/level structure, and intraday tape.
+- Kept the existing main color `#912338` unchanged.
