@@ -13,6 +13,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600;7..72,700&family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/site-polish.css" rel="stylesheet" />
+        <style>
+            /* Crop the portrait to a circle without stretching the image. */
+            #sideNav .navbar-brand .img-profile {
+                box-sizing: border-box;
+                width: 10rem;
+                height: 10rem;
+                max-width: 10rem;
+                max-height: 10rem;
+                object-fit: cover;
+                object-position: 50% 25%;
+                border-radius: 50%;
+            }
+        </style>
     </head>
 
     <body id="page-top">
